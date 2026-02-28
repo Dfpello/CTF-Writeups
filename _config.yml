@@ -1,0 +1,9 @@
+title: Dfpello | Security Writeups
+description: Offensive Security & CTF Solutions
+theme: jekyll-theme-hacker 
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  convertToHtml: true
