@@ -33,7 +33,7 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | :--- | :--- | :--- | :--- |
 | [ChocolateLovers](./DockerLabs/Easy-Faciles/ChocolateLovers.md) | DockerLabs | Easy | CVE-2015-6967 (RCE), Sudoers Hijacking, Cronjob Exploitation |
 | [Fruits](./HackersLabs/Easy-Faciles/Fruits.md) | HackerLabs | Easy | Local File Inclusion (LFI), SSH Brute Force, Sudo find (GTFOBins)
-| [Microchoft](./HackerLabs/Easy-Faciles/Microchoft.md) | HackerLabs | Easy	| MS17-010 (EternalBlue), SMB Exploitation, Metasploit
+| [Microchoft](./HackersLabs/Easy-Faciles/Microchoft.md) | HackerLabs | Easy	| MS17-010 (EternalBlue), SMB Exploitation, Metasploit
 
 ---
 
