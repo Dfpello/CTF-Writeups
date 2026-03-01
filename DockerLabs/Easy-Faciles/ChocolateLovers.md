@@ -39,21 +39,21 @@ nmap -p80 -sCV 172.17.0.4 -oN target
 ### 2.2 Web Enumeration
 Upon inspecting the source code of the main page, a reference to the **/nibbleblog** directory was discovered in the index.html.
 
-![Image of nibbleblog](../../images/DockerLabs/ChocolateLovers1.png)
+![Image of nibbleblog](../../images/DockerLabs/ChocolateLovers/ChocolateLovers1.png)
 
 Then I accessed that suposed directory in http://172.17.0.4/nibbleblog/ and I encounter with the Nibbleblog app that allows to create and administrate blogs. 
 
-![Nibbleblog panel](../../images/DockerLabs/ChocolateLovers2.png)
+![Nibbleblog panel](../../images/DockerLabs/ChocolateLovers/ChocolateLovers2.png)
 
 In this post I found the acces to the administration panel link and I access it http://172.17.0.4/nibbleblog/admin.php trying the default password admin:admin we can access the Nibbleblog admin area
 
-![Nibbleblog admin](../../images/DockerLabs/ChocolateLovers3.png)
+![Nibbleblog admin](../../images/DockerLabs/ChocolateLovers/ChocolateLovers3.png)
 
 ## 3. Exploitation (Foothold)
 ### 3.1 Remote Code Execution (RCE)
 Investigating in the settings I found that the version of Nibbleblog is Nibbleblog 4.0.3 which is vulnerable to [CVE-2015-6967](https://nvd.nist.gov/vuln/detail/CVE-2015-6967).
 
-![Nibbleblog version](../../images/DockerLabs/ChocolateLovers4.png)
+![Nibbleblog version](../../images/DockerLabs/ChocolateLovers/ChocolateLovers4.png)
 
 Exploitation Steps:
 1. Installed my image plugin
@@ -126,15 +126,15 @@ root
 ## 5. Flags & Proof
 www-data
 
-![user www-data](../../images/DockerLabs/ChocolateLovers5.png)
+![user www-data](../../images/DockerLabs/ChocolateLovers/ChocolateLovers5.png)
 
 Chocolate
 
-![user chocolate](../../images/DockerLabs/ChocolateLovers6.png)
+![user chocolate](../../images/DockerLabs/ChocolateLovers/ChocolateLovers6.png)
 
 Root
 
-![root](../../images/DockerLabs/ChocolateLovers7.png)
+![root](../../images/DockerLabs/ChocolateLovers/ChocolateLovers7.png)
 
 ## 6. Remediation & Hardening
 1. Password Policy: Implement strong, unique passwords for administrative panels.

@@ -41,19 +41,19 @@ nmap -p80 -sCV 192.168.86.84 -oN target
 ### 2.2 Web Enumeration
 The landing page features a search box. 
 
-![Landing](../../images/HackerLabs/Fruits1.png)
+![Landing](../../images/HackerLabs/Fruits/Fruits1.png)
 
 While the default search returned 404 Not Found errors, directory fuzzing with gobuster revealed a hidden file: fruits.php.
 Using a default search returned 404 Not Found errors so I proceeded to fuzzing with gobuster revealed a hidden file: fruits.php.
 ```bash
 gobuster dir -u http://192.168.86.84/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php,html,txt
 ```
-![Not Found](../../images/HackerLabs/Fruits2.png)
-![Gobuster](../../images/HackerLabs/Fruits3.png)
+![Not Found](../../images/HackerLabs/Fruits/Fruits2.png)
+![Gobuster](../../images/HackerLabs/Fruits/Fruits3.png)
 
 Upon accessing http://192.168.86.84/fruits.php, the page appeared blank. Testing for Local File Inclusion (LFI) by targeting the /etc/passwd file proved successful: http://192.168.86.84/fruits.php?file=/etc/passwd
 
-![LFI](../../images/HackerLabs/Fruits4.png)
+![LFI](../../images/HackerLabs/Fruits/Fruits4.png)
 
 **Discovered users**
 - bananaman
@@ -64,7 +64,7 @@ With a valid username (bananaman), I performed a dictionary attack against the S
 ```bash
 hydra -l bananaman -P /usr/share/wordlists/rockyou.txt ssh://192.168.86.84
 ```
-![Hydra](../../images/HackerLabs/Fruits5.png)
+![Hydra](../../images/HackerLabs/Fruits/Fruits5.png)
 
 Finally, we authenticated via SSH as bananaman
 ```bash
@@ -94,11 +94,11 @@ sudo find . -exec /bin/sh \; -quit
 ## 5. Flags & Proof
 Bananaman
 
-![Bananaman](../../images/HackerLabs/Fruits6.png)
+![Bananaman](../../images/HackerLabs/Fruits/Fruits6.png)
 
 Root
 
-![Root](../../images/HackerLabs/Fruits7.png)
+![Root](../../images/HackerLabs/Fruits/Fruits7.png)
 
 ## 6. Remediation & Hardening
 1. Sanitize Inputs: The fruits.php script should validate or whitelist parameters to prevent LFI.
