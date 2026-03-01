@@ -26,11 +26,12 @@ Subsequently, a full port scan was executed:
 ```bash
 # Full port scan with service detection and default scripts
 nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 172.17.0.4 -oG allPorts
+extractPorts allPorts
 nmap -p80 -sCV 172.17.0.4 -oN target
 ```
 
 **Key Findings:**
-Port 80/tcp: ajp13 [] - [Additional Info]
+
 | PORT | SERVICE | VERSION |
 | :--- | :--- | :--- |
 | **80** | http | Apache httpd 2.4.41 ((Ubuntu)) |
