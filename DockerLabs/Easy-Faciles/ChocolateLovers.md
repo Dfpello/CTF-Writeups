@@ -73,7 +73,7 @@ www-data
 
 Then I stabilize the shell with the following comands
 ```bash
-script /dec/null -c bash
+script /dev/null -c bash
 # (Ctrl+Z)
 stty raw -echo; fg
 export TERM=xterm
