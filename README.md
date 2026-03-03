@@ -35,7 +35,7 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | [ChocolateLovers](./DockerLabs/Easy-Faciles/ChocolateLovers.md) | DockerLabs | Easy | CVE-2015-6967 (RCE), Sudoers Hijacking, Cronjob Exploitation |
 | [Fruits](./HackersLabs/Easy-Faciles/Fruits.md) | HackerLabs | Easy | Local File Inclusion (LFI), SSH Brute Force, Sudo find (GTFOBins) |
 | [Microchoft](./HackersLabs/Easy-Faciles/Microchoft.md) | HackerLabs | Easy | MS17-010 (EternalBlue), SMB Exploitation, Metasploit |
-| [Grillo](./DockerLabs/Easy-Faciles/Grillo.md) | DockerLabs | Easy | Info Disclosure, SSH Brute Force, Sudo Puttygen Hijacking |
+| [Grillo](./HackersLabs/Easy-Faciles/Grillo.md) | HackersLabs | Easy | Info Disclosure, SSH Brute Force, Sudo Puttygen Hijacking |
 | [Mortadela](./HackersLabs/Easy-Faciles/Mortadela.md) | HackerLabs | Easy | MySQL Brute Force, CVE-2023-32784 (KeePass Memory Leak), Custom Python Scripting |
 | [Facts](./HackTheBox/Easy-Facil/Facts.md) | HackTheBox | Easy | soon |
 | [WingData](./HackTheBox/Easy-Facil/WingData.md) | HackTheBox | Easy | soon |
