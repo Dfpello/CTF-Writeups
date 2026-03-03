@@ -37,6 +37,7 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | [Microchoft](./HackersLabs/Easy-Faciles/Microchoft.md) | HackerLabs | Easy | MS17-010 (EternalBlue), SMB Exploitation, Metasploit |
 | [Grillo](./HackersLabs/Easy-Faciles/Grillo.md) | HackersLabs | Easy | Info Disclosure, SSH Brute Force, Sudo Puttygen Hijacking |
 | [Mortadela](./HackersLabs/Easy-Faciles/Mortadela.md) | HackerLabs | Easy | MySQL Brute Force, CVE-2023-32784 (KeePass Memory Leak), Custom Python Scripting |
+| [Zapasguapas](./HackersLabs/Easy-Faciles/Zapasguapas.md) | DockerLabs | Easy | OS Command Injection, ZIP Cracking, Sudo apt/aws Shell Escapes |
 | [Facts](./HackTheBox/Easy-Facil/Facts.md) | HackTheBox | Easy | soon |
 | [WingData](./HackTheBox/Easy-Facil/WingData.md) | HackTheBox | Easy | soon |
 
