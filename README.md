@@ -39,7 +39,8 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | [Mortadela](./HackersLabs/Easy-Faciles/Mortadela.md) | HackersLabs | Easy | MySQL Brute Force, CVE-2023-32784 (KeePass Memory Leak), Custom Python Scripting |
 | [ZapasGuapas](./HackersLabs/Easy-Faciles/ZapasGuapas.md) | HackersLabs | Easy | OS Command Injection, ZIP Cracking, Sudo apt/aws Shell Escapes |
 | [Cyberpunk](./HackersLabs/Easy-Faciles/Cyberpunk.md) | HackersLabs | Easy | Anonymous FTP, Brainfuck Deciphering, Python Library Hijacking |
-| [Yuan112](./HackMyVM/Easy-Faciles/Yuan112.md) | HackerLabs | Easy | XML External Entity (XXE), Python Brute-force Scripting, Arbitrary File Write |
+| [Papafrita](./HackersLabs/Easy-Faciles/Papafrita.md) | HackersLabs | Easy | Source Code Analysis, Brainfuck Obfuscation, Sudo Node.js Escape |
+| [Yuan112](./HackMyVM/Easy-Faciles/Yuan112.md) | HackMyVM | Easy | XML External Entity (XXE), Python Brute-force Scripting, Arbitrary File Write |
 | [Facts](./HackTheBox/Easy-Facil/Facts.md) | HackTheBox | Easy | soon |
 | [WingData](./HackTheBox/Easy-Facil/WingData.md) | HackTheBox | Easy | soon |
 
