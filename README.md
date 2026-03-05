@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio: Technical Write-ups 🛡️
 
-Welcome to my security research and CTF repository. This space is dedicated to documenting the exploitation and remediation of various machines from platforms like **DockerLabs**, **HackTheBox**, and **TryHackMe**.
+Welcome to my security research and CTF repository. This space is dedicated to documenting the exploitation and remediation of various machines from platforms like **DockerLabs**, **HackTheBox**, and **HackersLabs**.
 
 The primary focus is to demonstrate a structured, professional methodology in **Penetration Testing** and **Vulnerability Assessment**.
 
@@ -41,6 +41,8 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | [Cyberpunk](./HackersLabs/Easy-Faciles/Cyberpunk.md) | HackersLabs | Easy | Anonymous FTP, Brainfuck Deciphering, Python Library Hijacking |
 | [Papafrita](./HackersLabs/Easy-Faciles/Papafrita.md) | HackersLabs | Easy | Source Code Analysis, Brainfuck Obfuscation, Sudo Node.js Escape |
 | [Yuan112](./HackMyVM/Easy-Faciles/Yuan112.md) | HackMyVM | Easy | XML External Entity (XXE), Python Brute-force Scripting, Arbitrary File Write |
+| [Academy](./HackersLabs/Easy-Faciles/Academy.md) | HackersLabs | Easy | WordPress Brute Force, Bitfile Manager RCE, Privilege Escalation via Cron |
+| [SalYAzucar](./HackersLabs/Easy-Faciles/SalYAzucar.md) | HackersLabs | Easy | SSH Brute Force, Sudo base64 Abuse (GTFOBins), SSH Key Cracking |
 | [Facts](./HackTheBox/Easy-Facil/Facts.md) | HackTheBox | Easy | soon |
 | [WingData](./HackTheBox/Easy-Facil/WingData.md) | HackTheBox | Easy | soon |
 
