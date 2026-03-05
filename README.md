@@ -43,6 +43,7 @@ Every write-up in this repository follows a standardized 4-step process to ensur
 | [Yuan112](./HackMyVM/Easy-Faciles/Yuan112.md) | HackMyVM | Easy | XML External Entity (XXE), Python Brute-force Scripting, Arbitrary File Write |
 | [Academy](./HackersLabs/Easy-Faciles/Academy.md) | HackersLabs | Easy | WordPress Brute Force, Bitfile Manager RCE, Privilege Escalation via Cron |
 | [SalYAzucar](./HackersLabs/Easy-Faciles/SalYAzucar.md) | HackersLabs | Easy | SSH Brute Force, Sudo base64 Abuse (GTFOBins), SSH Key Cracking |
+| [PizzaHot](./HackersLabs/Easy-Faciles/PizzaHot.md) | HackersLabs | Easy | Information Disclosure, SSH Brute Force, Sudo gcc/man Shell Escapes (GTFOBins) |
 | [Facts](./HackTheBox/Easy-Facil/Facts.md) | HackTheBox | Easy | soon |
 | [WingData](./HackTheBox/Easy-Facil/WingData.md) | HackTheBox | Easy | soon |
 
