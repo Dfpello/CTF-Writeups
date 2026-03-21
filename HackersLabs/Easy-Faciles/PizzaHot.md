@@ -4,7 +4,7 @@
 | :--- | :--- |
 | **Platform** | HackerLabs |
 | **Operating System** | Linux |
-| **Difficulty** | Easy (0-Faciles) |
+| **Difficulty** | Easy |
 | **IP Address** | `192.168.86.102` |
 | **Date** | March 5, 2024 |
 
